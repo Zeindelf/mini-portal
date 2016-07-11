@@ -1,2 +1,3 @@
-# mini-portal
-Refazendo o primeiro portal
+# Mini-portal
+
+Refazer o projeto de um portal simples com novos padrões
