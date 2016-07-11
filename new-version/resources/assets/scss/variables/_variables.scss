@@ -1,0 +1,107 @@
+/**
+ * Colors
+ */
+$color-base:				#666 !default;
+$color-base-lighter:		lighten($color-base, 53.5%) !default; // #eee
+$color-base-light:			lighten($color-base, 20%) !default; // #999
+$color-base-dark:			darken($color-base, 13.2%) !default; // #444
+$color-base-darkest:		darken($color-base, 26.8%) !default; // #222
+
+
+/**
+ * System colors
+ */
+$brand-default: 			darken(#428bca, 6.5%) !default;
+$brand-success: 			darken(#5cb85c, 5%) !default;
+$brand-info: 				darken(#5bc0de, 15%) !default;
+$brand-warning: 			#f0ad4e !default;
+$brand-danger: 				#d9534f !default;
+
+/**
+ * Button style
+ */
+$button-default-color:              #eee !default;
+$button-default-bg:                 $brand-default !default;
+$button-default-border:             darken($button-default-bg, 5%) !default;
+
+$button-success-color:              #eee !default;
+$button-success-bg:                 $brand-success !default;
+$button-success-border:             darken($button-success-bg, 5%) !default;
+
+$button-info-color:                 #eee !default;
+$button-info-bg:                    $brand-info !default;
+$button-info-border:                darken($button-info-bg, 5%) !default;
+
+$button-warning-color:              #eee !default;
+$button-warning-bg:                 $brand-warning !default;
+$button-warning-border:             darken($button-warning-bg, 5%) !default;
+
+$button-danger-color:               #eee !default;
+$button-danger-bg:                  $brand-danger !default;
+$button-danger-border:              darken($button-danger-bg, 5%) !default;
+
+
+/**
+ * Typography
+ */
+$font-family-sans-serif:	'Roboto Condensed', sans-serif !default;
+$font-family-serif:			Georgia, "Times New Roman", serif !default;
+$font-family-monospace:		Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:			$font-family-sans-serif !default;
+
+$font-size-base:			16px !default;
+$font-size-small:			0.8em !default;
+$font-size-medium:			1.2em !default;
+$font-size-large:			1.5em !default;
+
+$font-weight-light:			300 !default;
+$font-weight-base:			400 !default;
+$font-weight-bold:			700 !default;
+
+
+/**
+ * Settings body
+ */
+$body-bg:					#fff !default;
+$text-color-base:			#222 !default;
+
+/**
+ * Viewports
+ */
+$break-phone-portrait: 		320px;
+$break-phone-landscape: 	480px;
+$break-tablet-portrait: 	768px;
+$break-tablet-landscape: 	1024px;
+$break-desk-wide: 			1200px;
+
+
+/**
+ * Settings alerts
+ */
+$success-text:				#3c763d !default;
+$success-bg:				#dff0d8 !default;
+$success-border:			darken($success-bg, 5%) !default;
+
+$info-text:					#31708f !default;
+$info-bg:					#d9edf7 !default;
+$info-border:				darken($info-bg, 7%) !default;
+
+$warning-text:				#8a6d3b !default;
+$warning-bg:				#faf2cc !default;
+$warning-border:			darken($warning-bg, 15%) !default;
+
+$danger-text:				#a94442 !default;
+$danger-bg:					#f2dede !default;
+$danger-border:				darken($danger-bg, 5%) !default;
+
+
+/**
+ * Settings messages
+ */
+$message-font-family:		$font-family-base;
+$message-font-size:			$font-size-base;
+
+$message-padding:			1em 2em 1em 1em ;
+$message-margin:			1em auto;
+
+$message-close-padding:		1em;

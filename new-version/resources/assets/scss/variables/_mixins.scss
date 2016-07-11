@@ -1,0 +1,24 @@
+/**
+ * Button styles
+ */
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+    padding: $padding-vertical $padding-horizontal;
+    font-size: $font-size;
+    line-height: $line-height;
+    border-radius: $border-radius;
+}
+
+@mixin button-variant($color, $background, $border) {
+    color: $color;
+    background-color: $background;
+    border: $border;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:disabled {
+        color: $color;
+        background-color: darken($background, 10%);
+        border: darken($background, 10%);
+    }
+}

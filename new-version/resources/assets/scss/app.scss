@@ -1,0 +1,26 @@
+/*
+ * Core
+ */
+@import "variables/variables";
+@import "variables/mixins";
+
+/*
+ * Dependencies
+ */
+@import "core/reset";
+
+/**
+ * Libraries
+ */
+
+/*
+ * Style Geral
+ */
+@import "modules/base";
+
+/*
+ * Components
+ */
+@import "components/helpers";
+@import "components/messages";
+@import "components/fonts";
