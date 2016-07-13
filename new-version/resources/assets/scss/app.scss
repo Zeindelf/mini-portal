@@ -1,3 +1,9 @@
+/**
+ * Libraries
+ */
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
 /*
  * Core
  */
@@ -9,14 +15,14 @@
  */
 @import "core/reset";
 
-/**
- * Libraries
- */
-
 /*
  * Style Geral
  */
 @import "modules/base";
+
+@import "modules/header/header-category";
+@import "modules/header/header-nav";
+@import "modules/header/header-title";
 
 /*
  * Components

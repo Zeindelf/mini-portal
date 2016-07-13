@@ -1,0 +1,39 @@
+.main-header {
+	&__title {
+		&--container {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		&--content {
+			@include make-lg-column(12);
+			display: flex;
+			align-items: center;
+		}
+
+		&--logo {
+			h1 {
+				font-family: 'Oswald', sans-serif;
+				font-size: 3.5em;
+				font-weight: $znd_font-weight-base;
+				text-transform: uppercase;
+				letter-spacing: -.05em;
+
+				a {
+					color: $znd_color-base-darkest;
+				}
+			}
+
+			p {
+				font-size: $znd_font-size-medium;
+				font-weight: $znd_font-weight-base;
+				color: $znd_color-base-dark;
+				margin-top: -10px;
+			}
+		}
+
+		&--banner {
+			margin-left: auto;
+		}
+	}
+}

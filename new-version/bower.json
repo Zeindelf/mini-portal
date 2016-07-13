@@ -2,7 +2,7 @@
   "name": "system-mvc",
   "version": "1.0.0",
   "description": "Sistema simples de usuários utilizando MVC com PHP OO e Smarty Template Engine",
-  "main": "index.js",
+  "main": "index.html",
   "authors": [
     "Wellington Barreto <zeindelf@hotmail.com>"
   ],
@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "2.2.4"
+    "jquery": "2.2.4",
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6"
   }
 }

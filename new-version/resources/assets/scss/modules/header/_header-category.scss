@@ -1,0 +1,28 @@
+.main-header {
+	&__category-nav {
+		background: $znd_color-base-darkest;
+
+		&--content {
+			@include make-lg-column(12);
+		}
+
+		&--item {
+			float: left;
+
+			a {
+				font-family: 'Oswald', sans-serif;
+				font-size: 1.6em;
+				text-transform: uppercase;
+				color: $znd_color-base-lighter;
+				display: block;
+				padding: 10px 22px;
+
+				border-right: 1px solid lighten($znd_color-base-darkest, 10%);
+
+				&:hover {
+					background: $znd_color-theme-red;
+				}
+			}
+		}
+	}
+}

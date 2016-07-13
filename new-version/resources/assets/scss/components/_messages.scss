@@ -1,10 +1,10 @@
 .alert {
 	width: 100%;
-	font-family: $message-font-family;
-	font-size: $message-font-size;
+	font-family: $znd_message-font-family;
+	font-size: $znd_message-font-size;
 
-	padding: $message-padding;
-	margin: $message-margin;
+	padding: $znd_message-padding;
+	margin: $znd_message-margin;
 
 	position: relative;
 
@@ -12,43 +12,43 @@
 
 	&.alert-success,
 	&.alert-success a {
-		color: $success-text;
+		color: $znd_success-text;
 	}
 
 	&.alert-success {
-		background-color: $success-bg;
-		border-color: $success-border;
+		background-color: $znd_success-bg;
+		border-color: $znd_success-border;
 	}
 
 	&.alert-info,
 	&.alert-info a {
-		color: $info-text;
+		color: $znd_info-text;
 	}
 
 	&.alert-info {
-		background-color: $info-bg;
-		border-color: $info-border;
+		background-color: $znd_info-bg;
+		border-color: $znd_info-border;
 	}
 
 	&.alert-warning,
 	&.alert-warning a {
-		color: $warning-text;
+		color: $znd_warning-text;
 	}
 
 
 	&.alert-warning {
-		background-color: $warning-bg;
-		border-color: $warning-border;
+		background-color: $znd_warning-bg;
+		border-color: $znd_warning-border;
 	}
 
 	&.alert-danger,
 	&.alert-danger a {
-		color: $danger-text;
+		color: $znd_danger-text;
 	}
 
 	&.alert-danger {
-		background-color: $danger-bg;
-		border-color: $danger-border;
+		background-color: $znd_danger-bg;
+		border-color: $znd_danger-border;
 	}
 
 	.alert-close:after {
@@ -56,10 +56,10 @@
 		position: absolute;
 		display: block;
 
-		top: $message-close-padding;
-		right: $message-close-padding;
+		top: $znd_message-close-padding;
+		right: $znd_message-close-padding;
 		cursor: pointer;
-		font-weight: $font-weight-bold;
+		font-weight: $znd_font-weight-bold;
 	}
 }
 

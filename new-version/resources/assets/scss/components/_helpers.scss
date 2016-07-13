@@ -3,12 +3,12 @@
  */
 .button {
 	display: inline-block;
-	color: $color-base-darkest;
-	background-color: $color-base-light;
-	font-family: $font-family-base;
-	font-weight: $font-weight-base;
+	color: $znd_color-base-darkest;
+	background-color: $znd_color-base-light;
+	font-family: $znd_font-family-base;
+	font-weight: $znd_font-weight-base;
 
-	border: 1px solid darken($color-base-light, 10%);
+	border: 1px solid darken($znd_color-base-light, 10%);
 	text-decoration: none;
 	cursor: pointer;
 	outline: none;
@@ -18,13 +18,13 @@
 
 	transition: all .3s;
 
-	@include button-size(0, 2em, $font-size-medium, 2.4, 3px);
+	@include button-size(0, 2em, $znd_font-size-medium, 2.4, 3px);
 
 	&:hover,
 	&:focus,
 	&:disabled {
-		background-color: darken($color-base-light, 15%);
-		color: $color-base-lighter;
+		background-color: darken($znd_color-base-light, 15%);
+		color: $znd_color-base-lighter;
 	}
 
 	&:disabled {
@@ -34,18 +34,18 @@
 
 	// Variações
 	&-success {
-		@include button-variant($button-success-color, $button-success-bg, $button-success-border);
+		@include button-variant($znd_button-success-color, $znd_button-success-bg, $znd_button-success-border);
 	}
 
 	&-info {
-		@include button-variant($button-info-color, $button-info-bg, $button-info-border);
+		@include button-variant($znd_button-info-color, $znd_button-info-bg, $znd_button-info-border);
 	}
 
 	&-warning {
-		@include button-variant($button-warning-color, $button-warning-bg, $button-warning-border);
+		@include button-variant($znd_button-warning-color, $znd_button-warning-bg, $znd_button-warning-border);
 	}
 
 	&-danger {
-		@include button-variant($button-danger-color, $button-danger-bg, $button-danger-border);
+		@include button-variant($znd_button-danger-color, $znd_button-danger-bg, $znd_button-danger-border);
 	}
 }

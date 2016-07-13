@@ -1,24 +1,34 @@
 /**
- * Button styles
+ * Container dos conteúdos
  */
-@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
-    padding: $padding-vertical $padding-horizontal;
-    font-size: $font-size;
-    line-height: $line-height;
-    border-radius: $border-radius;
+@mixin container {
+    @include container-fixed;
+
+    width: 100%;
+    max-width: 1400px;
 }
 
-@mixin button-variant($color, $background, $border) {
-    color: $color;
-    background-color: $background;
-    border: $border;
+/**
+ * Button styles
+ */
+@mixin button-size($znd_padding-vertical, $znd_padding-horizontal, $znd_font-size, $znd_line-height, $znd_border-radius) {
+    padding: $znd_padding-vertical $znd_padding-horizontal;
+    font-size: $znd_font-size;
+    line-height: $znd_line-height;
+    border-radius: $znd_border-radius;
+}
+
+@mixin button-variant($znd_color, $znd_background, $znd_border) {
+    color: $znd_color;
+    background-color: $znd_background;
+    border: $znd_border;
 
     &:hover,
     &:focus,
     &:active,
     &:disabled {
-        color: $color;
-        background-color: darken($background, 10%);
-        border: darken($background, 10%);
+        color: $znd_color;
+        background-color: darken($znd_background, 10%);
+        border: darken($znd_background, 10%);
     }
 }

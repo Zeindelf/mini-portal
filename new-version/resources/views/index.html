@@ -2,15 +2,78 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Portal</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
+		<title>Zeinstrich</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="assets/css/app.css">
 	</head>
 	<body>
-		<div class="container">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptas magnam, libero quo at perferendis quam voluptatibus consequuntur temporibus inventore neque ea, facere ab architecto impedit voluptatem deserunt, reprehenderit sunt!</p>
-		</div>
+
+		<!-- HEADER -->
+        <header class="main-header">
+
+            <div class="main-header__nav">
+            	<div class="main-header__nav--container">
+            		<div class="main-header__nav--content">
+						<ul>
+							<li class="main-header__nav--item"><a title="Home" href="#">Home</a></li>
+							<li class="main-header__nav--item"><a title="Sobre" href="#">Sobre</a></li>
+							<li class="main-header__nav--item"><a title="Contato" href="#">Contato</a></li>
+						</ul>
+					</div>
+				</div>
+            </div><!-- /.main-header__nav -->
+
+
+            <div class="main-header__title">
+            	<div class="main-header__title--container">
+            		<div class="main-header__title--content">
+		            	<div class="main-header__title--logo">
+			            	<h1><a title="Zeinstrich" href="#">Zeinstrich</a></h1>
+			            	<p>Magazine Template</p>
+			            </div>
+
+			            <div class="main-header__title--banner">
+			            	<img src="assets/img/publicidade-banner.jpg" alt="" title="">
+			            </div>
+					</div>
+				</div>
+            </div><!-- /.main-header__title -->
+
+
+            <!-- Responsive menu -->
+            <div class="main-header__category-nav--menu-bar" style="display: none;">
+                <div class="main-header__category-nav--menu-button">
+                    <span class="main-header__category-nav--icon"></span><p>Categoria</p>
+                </div>
+            </div>
+            <!-- /Responsive menu -->
+
+            <div class="main-header__category-nav">
+            	<div class="main-header__category-nav--container">
+            		<div class="main-header__category-nav--content">
+		            	<ul>
+		            		<li class="main-header__category-nav--item">
+		            			<a title="Home" href="#"><span class="icon-home"></span></a>
+		            		</li>
+		                    <li class="main-header__category-nav--item"><a title="Categoria | Negócios" href="#">Negócios</a></li>
+		                    <li class="main-header__category-nav--item"><a title="Categoria | Tecnologia" href="#">Tecnologia</a></li>
+		                    <li class="main-header__category-nav--item"><a title="Categoria | Entretenimento" href="#">Entretenimento</a></li>
+		                    <li class="main-header__category-nav--item"><a title="Categoria | Esportes" href="#">Esportes</a></li>
+		                    <li class="main-header__category-nav--item"><a title="Categoria | Saúde" href="#">Saúde</a></li>
+		                    <li class="main-header__category-nav--item"><a title="Categoria | Games" href="#">Games</a></li>
+		            	</ul>
+		            </div>
+	            </div>
+            </div><!-- /.main-header__category-nav -->
+
+        </header><!-- /main-header -->
+        <!-- /HEADER -->
+
 
 		<script src="assets/js/app.js"></script>
 	</body>
