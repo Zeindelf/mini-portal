@@ -11,12 +11,24 @@ body {
 	@include hide-text;
 }
 
+/**
+ * Base header
+ */
 .main-header {
-	&__category-nav,
-	&__nav,
-	&__title {
-		&--container {
-			@include container;
-		}
+	&__container {
+		@include container-fixed;
+	}
+
+	&__nav-container,
+	&__title-container,
+	&__category-container {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+
+	&__nav-content,
+	&__title-content,
+	&__category-content {
+		@include make-row;
 	}
 }

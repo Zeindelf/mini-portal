@@ -2,12 +2,12 @@
 	&__nav {
 		border-bottom: 1px solid $znd_color-base-lighter;
 
-		&--content {
+		&-menu {
 			@include make-lg-column(12);
 		}
 
-		&--item {
-			float: left;
+		&-item {
+			display: inline-block;
 			margin: 15px 10px;
 
 			&:last-child a {
@@ -26,5 +26,4 @@
 			}
 		}
 	}
-
 }

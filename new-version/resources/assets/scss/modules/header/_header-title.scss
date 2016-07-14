@@ -1,17 +1,14 @@
 .main-header {
 	&__title {
-		&--container {
+		&-wrap {
+			@include make-lg-column(12);
 			padding-top: 10px;
 			padding-bottom: 10px;
-		}
-
-		&--content {
-			@include make-lg-column(12);
 			display: flex;
 			align-items: center;
 		}
 
-		&--logo {
+		&-logo {
 			h1 {
 				font-family: 'Oswald', sans-serif;
 				font-size: 3.5em;
@@ -32,7 +29,7 @@
 			}
 		}
 
-		&--banner {
+		&-banner {
 			margin-left: auto;
 		}
 	}

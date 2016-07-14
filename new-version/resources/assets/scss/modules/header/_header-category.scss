@@ -1,12 +1,12 @@
 .main-header {
-	&__category-nav {
+	&__category {
 		background: $znd_color-base-darkest;
 
-		&--content {
+		&-nav {
 			@include make-lg-column(12);
 		}
 
-		&--item {
+		&-item {
 			float: left;
 
 			a {
