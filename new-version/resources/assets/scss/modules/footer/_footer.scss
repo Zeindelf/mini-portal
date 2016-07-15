@@ -5,4 +5,9 @@
 	a {
 		color: darken($znd_color-base-lighter, 10%);
 	}
+
+	a:hover {
+		color: lighten($znd_color-base-lighter, 10%);
+		text-decoration: underline;
+	}
 }

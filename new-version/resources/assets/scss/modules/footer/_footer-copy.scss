@@ -11,8 +11,8 @@
 
 	&__copy-item {
 		font-size: $znd_font-size-medium;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 
 		&--right {
 			margin-left: auto;
@@ -20,11 +20,6 @@
 
 		a {
 			font-weight: $znd_font-weight-bold;
-
-			&:hover {
-				color: #fff;
-				text-decoration: underline;
-			}
 		}
 	}
 }
