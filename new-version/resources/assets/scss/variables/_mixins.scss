@@ -1,4 +1,11 @@
 /**
+ * Main container
+ */
+@mixin container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/**
  * Button styles
  */
 @mixin button-size($znd_padding-vertical, $znd_padding-horizontal, $znd_font-size, $znd_line-height, $znd_border-radius) {

@@ -5,6 +5,8 @@ body {
 
 	background-color: $znd_body-bg;
 	color: $znd_text-color-base;
+
+	line-height: 1.2;
 }
 
 .hidden {
@@ -14,21 +16,35 @@ body {
 /**
  * Base header
  */
-.main-header {
+.main-header,
+.main-footer {
 	&__container {
 		@include container-fixed;
 	}
+}
 
+.main-header {
 	&__nav-container,
 	&__title-container,
 	&__category-container {
-		max-width: 1400px;
-		margin: 0 auto;
+		@include container;
 	}
 
 	&__nav-content,
 	&__title-content,
 	&__category-content {
+		@include make-row;
+	}
+}
+
+.main-footer {
+	&__info-container,
+	&__copy-container {
+		@include container;
+	}
+
+	&__info-content,
+	&__copy-content {
 		@include make-row;
 	}
 }
